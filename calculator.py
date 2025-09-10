@@ -18,3 +18,12 @@ def power(a, b):
 if __name__ == "__main__":
     print("Kalkulaator: 2 + 3 =", add(2, 3))
 
+import math
+
+def mod(a, b):
+    return a % b
+
+def sqrt(a):
+    if a >= 0:
+        return math.sqrt(a)
+    return 'Error: Negative number'
